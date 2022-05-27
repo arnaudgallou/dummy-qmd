@@ -1,0 +1,26 @@
+---
+title: Citation and cross reference in the same pair of brackets
+editor_options:
+  markdown: 
+    wrap: sentence
+crossref: 
+  fig-prefix: Fig.
+bibliography: references.bib
+csl: science-without-titles.csl
+---
+
+{{< include ../_figure.qmd >}}
+
+Blah (@foo1999; @fig-foo)
+
+Blah [[@foo1999], @fig-foo]
+
+Blah [@foo1999; @fig-foo]
+
+Blah [@foo1999, Fig. 1]
+
+## Comments
+
+Couldn't find a solution that works…
+
+Expected output: `Blah foo (1; Fig. 1)`

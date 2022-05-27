@@ -1,0 +1,16 @@
+---
+title: In-text citation (Science style)
+editor_options:
+  markdown: 
+    wrap: sentence
+bibliography: references.bib
+csl: science-without-titles.csl
+---
+
+@foo1999 says blah
+
+## Comments
+
+Currently not working…
+
+Expected output: `Foo (1) blah`

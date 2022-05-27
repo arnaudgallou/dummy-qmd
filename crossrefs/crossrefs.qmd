@@ -1,0 +1,41 @@
+---
+title: Cross references
+editor_options:
+  markdown: 
+    wrap: sentence
+crossref: 
+  title-delim: .
+  fig-title: fig.
+  fig-prefix: fig.
+  eq-prefix: eq.
+---
+
+## Figures
+
+{{< include ../_figure.qmd >}}
+
+**single plot**
+
+@fig-foo
+
+@Fig-foo
+
+**faceted plot**
+
+@fig-foo A
+
+[@fig-foo]A
+
+## Equations
+
+$$\alpha^2=4$$ {#eq-a}
+
+@eq-a
+
+@Eq-a
+
+## Comments
+
+Capitalization of cross ref. not working.
+
+No proper ways to reference a particular panel from a faceted plot.

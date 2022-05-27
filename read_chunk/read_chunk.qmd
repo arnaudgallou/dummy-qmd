@@ -1,0 +1,17 @@
+---
+title: Importing code chunk using `knitr::read_chunk()`
+editor_options:
+  markdown: 
+    wrap: sentence
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+library(ggplot2)
+knitr::read_chunk("read_chunk.R")
+```
+
+```{r foo}
+```
