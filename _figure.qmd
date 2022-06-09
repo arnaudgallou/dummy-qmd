@@ -1,5 +1,7 @@
 ```{r}
 #| label: fig-foo
+#| fig-height: 3
+#| fig-width: 3.5
 #| fig-cap: This is a figure caption.
 #| echo: false
 
