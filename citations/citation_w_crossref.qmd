@@ -5,8 +5,8 @@ editor_options:
     wrap: sentence
 crossref: 
   fig-prefix: Fig.
-bibliography: references.bib
-csl: science-without-titles.csl
+bibliography: refs/references.bib
+csl: refs/science-without-titles.csl
 ---
 
 {{< include ../_figure.qmd >}}

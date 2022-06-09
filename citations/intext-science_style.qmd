@@ -3,8 +3,8 @@ title: In-text citation (Science style)
 editor_options:
   markdown: 
     wrap: sentence
-bibliography: references.bib
-csl: science-without-titles.csl
+bibliography: refs/references.bib
+csl: refs/science-without-titles.csl
 ---
 
 @foo1999 says blah
