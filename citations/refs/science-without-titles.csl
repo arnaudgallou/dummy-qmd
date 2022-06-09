@@ -50,6 +50,7 @@
       <if variable="page" match="none">
         <text macro="access-value"/>
       </if>
+      <!-- is-numeric="page" causing indent issues -->
       <else-if is-numeric="page" match="none">
         <text macro="access-value"/>
       </else-if>
