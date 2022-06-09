@@ -3,11 +3,13 @@ title: Cross references
 editor_options:
   markdown: 
     wrap: sentence
+format: gfm
 crossref: 
   title-delim: .
-  fig-title: fig.
+  fig-title: Fig.
   fig-prefix: fig.
   eq-prefix: eq.
+fig-format: svg
 ---
 
 ## Figures
@@ -22,20 +24,16 @@ crossref:
 
 **faceted plot**
 
-@fig-foo A
-
 [@fig-foo]A
+
+**supplementary plot**
+
+Fig. S[-@fig-foo]
 
 ## Equations
 
-$$\alpha^2=4$$ {#eq-a}
+$$\alpha=2$$ {#eq-a}
 
 @eq-a
 
 @Eq-a
-
-## Comments
-
-Capitalization of cross ref. not working.
-
-No proper ways to reference a particular panel from a faceted plot.
