@@ -1,0 +1,15 @@
+---
+description: "LaTeX Error: Not in outer par mode. Problem caused by the combination of 'fig-align' and 'fig-cap'. Removing one or the other solves the issue."
+format: pdf
+execute: 
+  echo: false
+  warning: false
+fig-format: pdf
+fig-align: center
+---
+
+```{r}
+#| fig-cap: foo
+plot(1)
+```
+
