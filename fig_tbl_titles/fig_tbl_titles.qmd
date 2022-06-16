@@ -1,0 +1,21 @@
+---
+editor_options:
+  markdown: 
+    wrap: 80
+format: pdf
+crossref: 
+  title-delim: .
+  fig-title: Fig.
+fig-format: pdf
+---
+
+```{r}
+#| label: fig-foo
+#| fig-height: 3
+#| fig-width: 3.5
+#| fig-cap: This is a figure caption.
+#| echo: false
+
+plot(1)
+```
+
