@@ -8,5 +8,3 @@ csl: refs/science-without-titles.csl
 ---
 
 @foo1999 says blah
-
-@foo1999 [p. 33] says blah
