@@ -1,16 +1,12 @@
 ---
-title: In-text citation (Science style)
-editor_options:
-  markdown: 
-    wrap: sentence
+format: pdf
 bibliography: refs/references.bib
 csl: refs/science-without-titles.csl
+# csl: refs/global-ecology-and-biogeography.csl
+# csl: refs/pnas.csl
+# csl: refs/nature.csl
 ---
 
 @foo1999 says blah
 
-## Comments
-
-Currently not working…
-
-Expected output: `Foo (1) blah`
+@foo1999 [p. 33] says blah
